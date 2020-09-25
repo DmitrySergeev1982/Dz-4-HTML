@@ -1,0 +1,23 @@
+{
+  "name": "dz-4-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel dz4.html --open",
+    "build": "parcel build dz4.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitrySergeev1982/Dz-4-HTML.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitrySergeev1982/Dz-4-HTML/issues"
+  },
+  "homepage": "https://github.com/DmitrySergeev1982/Dz-4-HTML#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    color: rgb(107, 106, 106);
+}
+
+header {
+    background: rgb(185, 28, 0);    
+}
+
+.header_list li {
+    /* background: orangered;     */
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.header_list li a {
+    /* background: orchid; */
+    text-decoration: none;
+    color: papayawhip;
+    padding: 0 10px;
+    border-right: 1px solid ;
+}
+
+.header_list li:last-child a {
+    border-right:  transparent;
+}
+
+main {
+    width: 70%;
+    float: left;
+    /* background: lightcoral; */
+}
+
+.logo {
+    /* background: wheat; */
+    /* width: 300px; */
+    margin: 40px 0;
+}
+
+.logo img {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: rgb(190, 0, 0)
+}
+
+.text1 {
+    background: rgb(245, 244, 242);
+    padding: 20px;
+    
+}
+
+.text1 h3 {
+    color: brown;
+    border-bottom: 1px solid rgb(224, 220, 220);
+   padding-bottom: 5px;
+}
+
+.text1 p {
+    padding: 10px 0;    
+}
+
+.text1_list {
+    list-style: none;
+    padding: 20px 0;
+    /* background: palevioletred; */
+}
+
+.text1_list li:before {
+    background: rgb(255, 101, 216);
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;   
+}
+
+.text2 {
+    /* background: burlywood; */
+    /* width: 70%; */
+    padding: 30px 0  40px;
+    
+}
+
+.text2 h3 {
+    color: brown;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(224, 220, 220);
+    margin-bottom: 20px;
+}
+
+.text2 img {
+    float: left;
+    padding-right: 20px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    /* background: royalblue; */
+    padding: 0  50px;
+}
+
+.text_aside {
+    /* background: saddlebrown; */
+    /* padding: 5px; */
+}
+
+.text_aside img {
+    /* background: yellow; */
+    padding-top: 40px;
+}
+
+.text_aside h3 {
+    /* background: yellowgreen; */
+    padding: 20px 0 10px;
+    color: brown;
+}
+
+.list {
+    background: rgb(245, 244, 242);
+    list-style: none;
+    padding: 15px;
+}
+
+.list li {
+    /* background: red; */
+    padding: 3px;
+}
+
+.list li a{
+    color: rgb(226, 100, 121);
+}
+
+.list li:before {    
+    content: "";
+    background: url("../img/Shape 2.png");
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    background: rgb(235, 233, 233);
+    height: 100px;    
+    padding: 30px 0;
+}
+
+.footer_list li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer_list li a {
+    color: rgb(226, 100, 121);
+    padding: 0px 5px;
+    border-right: 1px solid gray;  
+}
+
+.footer_list li:first-child a{
+    padding-left: 0px;
+}
+
+.footer_list li:nth-child(3) {
+    padding-left: 5px;
+}
+
+.footer_list li:last-child a{
+    border-right: 0;
+    padding: 0px;
+}
+
+
+
+
+
+
