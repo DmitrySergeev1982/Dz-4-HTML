@@ -24,7 +24,6 @@ header {
 }
 
 .header_list li a {
-    /* background: orchid; */
     text-decoration: none;
     color: papayawhip;
     padding: 0 10px;
@@ -38,12 +37,9 @@ header {
 main {
     width: 70%;
     float: left;
-    /* background: lightcoral; */
 }
 
 .logo {
-    /* background: wheat; */
-    /* width: 300px; */
     margin: 40px 0;
 }
 
@@ -58,14 +54,13 @@ main {
 
 .text1 {
     background: rgb(245, 244, 242);
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 .text1 h3 {
     color: brown;
     border-bottom: 1px solid rgb(224, 220, 220);
-   padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .text1 p {
@@ -89,8 +84,6 @@ main {
 }
 
 .text2 {
-    /* background: burlywood; */
-    /* width: 70%; */
     padding: 30px 0  40px;
     
 }
@@ -110,13 +103,7 @@ main {
 aside {
     width: 30%;
     float: right;
-    /* background: royalblue; */
     padding: 0  50px;
-}
-
-.text_aside {
-    /* background: saddlebrown; */
-    /* padding: 5px; */
 }
 
 .text_aside img {
@@ -137,7 +124,6 @@ aside {
 }
 
 .list li {
-    /* background: red; */
     padding: 3px;
 }
 
